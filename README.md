@@ -1,16 +1,3 @@
-```markdown
-| <a href="screenshots/1.jpg"><img src="screenshots/1.jpg" width="200"/></a> | <a href="screenshots/2.jpg"><img src="screenshots/2.jpg" width="200"/></a> |
-|:--:|:--:|
-| *Main Menu* | *Warp Selection* |
-```
-
----
-
-📄 README.md نهایی (فول حرفه‌ای)
-
-اینو کپی کن و جایگزین README.md قبلی کن:
-
-```markdown
 <div align="center">
   <h1>⚡ WarpUI</h1>
   <p><em>A sleek, UI-driven warp management plugin for PocketMine-MP 5.0.0</em></p>
