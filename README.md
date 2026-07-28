@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ WarpUI
+#  WarpUI
 
 <p><em>A pixel-perfect warp management experience for PocketMine-MP</em></p>
 
