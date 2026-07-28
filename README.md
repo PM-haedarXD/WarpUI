@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/PM-haedarXD/WarpUI/main/icon.png" width="120" style="border-radius: 20px; box-shadow: 0 0 30px rgba(0,0,0,0.3);">
-
 # ⚡ WarpUI
 
 <p><em>A pixel-perfect warp management experience for PocketMine-MP</em></p>
