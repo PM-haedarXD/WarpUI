@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/PM-haedarXD/WarpUI/main/icon.png" width="120" style="border-radius: 20px; box-shadow: 0 0 30px rgba(0,0,0,0.3);" />
+<img src="https://raw.githubusercontent.com/PM-haedarXD/WarpUI/main/icon.png" width="120" style="border-radius: 20px; box-shadow: 0 0 30px rgba(0,0,0,0.3);">
 
 # ⚡ WarpUI
 
@@ -25,47 +25,25 @@
 
 ## 📸 Gallery
 
-<div align="center">
-<p><em>Click on any image to open it right here</em></p>
-</div>
+<p align="center"><em>Click any image to view full size</em></p>
 
-<div align="center">
+<p align="center">
+  <a href="screenshots/1.jpg"><img src="screenshots/1.jpg" width="180" style="border-radius:12px; margin:5px;" alt="Main Menu"></a>
+  <a href="screenshots/2.jpg"><img src="screenshots/2.jpg" width="180" style="border-radius:12px; margin:5px;" alt="Warp List"></a>
+  <a href="screenshots/3.jpg"><img src="screenshots/3.jpg" width="180" style="border-radius:12px; margin:5px;" alt="Create Warp"></a>
+  <a href="screenshots/4.jpg"><img src="screenshots/4.jpg" width="180" style="border-radius:12px; margin:5px;" alt="Delete Warp"></a>
+  <a href="screenshots/5.jpg"><img src="screenshots/5.jpg" width="180" style="border-radius:12px; margin:5px;" alt="Teleport Effect"></a>
+</p>
 
-| <a href="#modal1"><img src="screenshots/1.jpg" alt="Main Menu" width="200" style="border-radius: 12px;"></a> | <a href="#modal2"><img src="screenshots/2.jpg" alt="Warp List" width="200" style="border-radius: 12px;"></a> | <a href="#modal3"><img src="screenshots/3.jpg" alt="Create Warp" width="200" style="border-radius: 12px;"></a> | <a href="#modal4"><img src="screenshots/4.jpg" alt="Delete Warp" width="200" style="border-radius: 12px;"></a> | <a href="#modal5"><img src="screenshots/5.jpg" alt="Teleport Effect" width="200" style="border-radius: 12px;"></a> |
-|:---:|:---:|:---:|:---:|:---:|
-| 📋 Main Menu | 🌍 Warp List | ✨ Create | 🗑️ Delete | 🚀 Effect |
+<p align="center">
+  📋 Main Menu &nbsp;|&nbsp;
+  🌍 Warp List &nbsp;|&nbsp;
+  ✨ Create &nbsp;|&nbsp;
+  🗑️ Delete &nbsp;|&nbsp;
+  🚀 Effect
+</p>
 
-</div>
-
-<div class="modal" id="modal1" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); z-index:9999; text-align:center; padding-top:20px;">
-  <a href="#" style="position:fixed; top:20px; right:30px; color:#fff; font-size:40px; text-decoration:none;">&times;</a>
-  <img src="screenshots/1.jpg" style="max-width:95%; max-height:85%; border-radius:20px; margin-top:30px;">
-  <p style="color:#8b949e; margin-top:20px;">📋 Main Menu — Clean warp selection interface</p>
-</div>
-
-<div class="modal" id="modal2" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); z-index:9999; text-align:center; padding-top:20px;">
-  <a href="#" style="position:fixed; top:20px; right:30px; color:#fff; font-size:40px; text-decoration:none;">&times;</a>
-  <img src="screenshots/2.jpg" style="max-width:95%; max-height:85%; border-radius:20px; margin-top:30px;">
-  <p style="color:#8b949e; margin-top:20px;">🌍 Warp List — All warps at a glance</p>
-</div>
-
-<div class="modal" id="modal3" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); z-index:9999; text-align:center; padding-top:20px;">
-  <a href="#" style="position:fixed; top:20px; right:30px; color:#fff; font-size:40px; text-decoration:none;">&times;</a>
-  <img src="screenshots/3.jpg" style="max-width:95%; max-height:85%; border-radius:20px; margin-top:30px;">
-  <p style="color:#8b949e; margin-top:20px;">✨ Create Warp — Customizable titles & messages</p>
-</div>
-
-<div class="modal" id="modal4" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); z-index:9999; text-align:center; padding-top:20px;">
-  <a href="#" style="position:fixed; top:20px; right:30px; color:#fff; font-size:40px; text-decoration:none;">&times;</a>
-  <img src="screenshots/4.jpg" style="max-width:95%; max-height:85%; border-radius:20px; margin-top:30px;">
-  <p style="color:#8b949e; margin-top:20px;">🗑️ Delete Warp — Easy dropdown selection</p>
-</div>
-
-<div class="modal" id="modal5" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); z-index:9999; text-align:center; padding-top:20px;">
-  <a href="#" style="position:fixed; top:20px; right:30px; color:#fff; font-size:40px; text-decoration:none;">&times;</a>
-  <img src="screenshots/5.jpg" style="max-width:95%; max-height:85%; border-radius:20px; margin-top:30px;">
-  <p style="color:#8b949e; margin-top:20px;">🚀 Teleport Effect — Smooth sounds & titles</p>
-</div>
+---
 
 ## 📖 Overview
 
@@ -73,36 +51,42 @@
 
 | Form Type | Function | Style |
 |:---------:|:--------:|:-----:|
-| `SimpleForm` | Warp list | Gradient buttons |
-| `CustomForm` | Create Warp | Toggle + Input |
-| `CustomForm` | Delete Warp | Dropdown select |
+| SimpleForm | Warp list | Gradient buttons |
+| CustomForm | Create Warp | Toggle + Input |
+| CustomForm | Delete Warp | Dropdown select |
 
 ### 🧠 Architecture
 
-graph LR
-    A[Player] -->|/warp| B[SimpleForm]
-    A -->|/setwarp| C[CustomForm: Create]
-    A -->|/delwarp| D[CustomForm: Delete]
-    B --> E[Teleport + Sound + Title]
-    C --> F[Save to YAML]
-    D --> G[Remove from YAML]
+<pre>
+Player
+  │
+  ├── /warp ────> SimpleForm (Warp List) ──> Teleport + Sound + Title
+  │
+  ├── /setwarp ─> CustomForm (Create) ──────> Save to warps.yml
+  │
+  └── /delwarp ─> CustomForm (Delete) ──────> Remove from warps.yml
+</pre>
+
+---
 
 ## 🧬 Core Methods
 
-### `onEnable()`
-Initializes the plugin. Creates data folder if missing, loads `config.yml`, and sets up `warps.yml` storage.
+<strong>onEnable(): void</strong><br>
+Initializes the plugin. Creates data folder if missing, loads config.yml, and sets up warps.yml storage.
 
-### `onCommand(CommandSender $sender, Command $command, string $label, array $args): bool`
-Command router. Returns false for console senders. Routes `/warp`, `/setwarp`, and `/delwarp` to their respective form methods.
+<strong>onCommand(CommandSender $sender, Command $command, string $label, array $args): bool</strong><br>
+Command router. Returns false for console senders. Routes /warp, /setwarp, and /delwarp to their respective form methods.
 
-### `showWarpUI(Player $player): void`
-Builds a `SimpleForm` listing all warps as buttons. On click: validates warp exists → loads world → teleports player → sends title + message + EndermanTeleportSound.
+<strong>showWarpUI(Player $player): void</strong><br>
+Builds a SimpleForm listing all warps as buttons. On click: validates warp exists → loads world → teleports player → sends title + message + EndermanTeleportSound.
 
-### `showSetWarpForm(Player $player): void`
-Builds a `CustomForm` with inputs for warp name, title toggle/text, and message toggle/text. Saves warp data including coordinates and world to `warps.yml`.
+<strong>showSetWarpForm(Player $player): void</strong><br>
+Builds a CustomForm with inputs for warp name, title toggle/text, and message toggle/text. Saves warp data including coordinates and world to warps.yml.
 
-### `showDelWarpForm(Player $player): void`
-Builds a `CustomForm` with a dropdown of existing warps. On submit, removes selected warp from `warps.yml`. Shows error if no warps exist.
+<strong>showDelWarpForm(Player $player): void</strong><br>
+Builds a CustomForm with a dropdown of existing warps. On submit, removes selected warp from warps.yml. Shows error if no warps exist.
+
+---
 
 ## ✨ Features
 
@@ -110,39 +94,69 @@ Builds a `CustomForm` with a dropdown of existing warps. On submit, removes sele
 |---------|--------|
 | 🖥️ GUI | SimpleForm + CustomForm via libFormAPI |
 | ⚡ Performance | Direct world lookup, no loops |
-| 🔐 Permissions | 3 nodes: `use`, `create`, `delete` |
-| 💾 Storage | YAML flat file (`warps.yml`) |
+| 🔐 Permissions | 3 nodes: use, create, delete |
+| 💾 Storage | YAML flat file (warps.yml) |
 | 🔊 Sound | EndermanTeleportSound on teleport |
 | 📝 Title | Per-warp customizable title screen |
 | 💬 Message | Per-warp customizable chat message |
 | 🛡️ Validation | Empty name check, duplicate prevention, world existence |
 
+---
+
 ## 📥 Installation
 
 | Step | Action |
 |:---:|--------|
-| 1 | Download from [Releases](https://github.com/PM-haedarXD/WarpUI/releases) |
-| 2 | Place `WarpUI.phar` in `plugins/` |
-| 3 | Ensure [libFormAPI](https://github.com/jojoe77777/FormAPI) is installed |
+| 1 | Download from <a href="https://github.com/PM-haedarXD/WarpUI/releases">Releases</a> |
+| 2 | Place WarpUI.phar in plugins/ |
+| 3 | Ensure <a href="https://github.com/jojoe77777/FormAPI">libFormAPI</a> is installed |
 | 4 | Restart server |
 
+---
 
 ## 🔧 Commands & Permissions
 
 | Command | Permission | Default |
 |---------|-----------|:-------:|
-| `/warp` | `warpui.use` | Everyone |
-| `/setwarp` | `warpui.create` | OP only |
-| `/delwarp` | `warpui.delete` | OP only |
+| /warp | warpui.use | Everyone |
+| /setwarp | warpui.create | OP only |
+| /delwarp | warpui.delete | OP only |
+
+<details>
+<summary><strong>📄 plugin.yml Permission Nodes</strong></summary>
+<br>
+<pre>
+permissions:
+  warpui.use:
+    description: "Access /warp menu"
+    default: true
+  warpui.create:
+    description: "Create warps"
+    default: op
+  warpui.delete:
+    description: "Delete warps"
+    default: op
+</pre>
+</details>
+
+---
 
 ## ⚙️ Configuration
 
+<pre>
+# config.yml — generated on first run
+
 warp-menu-title: "Warps"
 warp-icon: "textures/items/compass"
+</pre>
 
+> 💡 Change warp-icon to any Minecraft texture path or leave as default.
+
+---
 
 ## 💾 Data Format
 
+<pre>
 Hub:
   x: 0.0
   y: 100.0
@@ -152,21 +166,35 @@ Hub:
   title_enabled: true
   message: "§eYou have arrived at Hub!"
   message_enabled: true
+</pre>
+
+| Field | Type | Description |
+|------|:----:|------------|
+| x,y,z | float | Coordinates |
+| level | string | World folder name |
+| title | string | Title screen text |
+| title_enabled | bool | Show title? |
+| message | string | Chat message |
+| message_enabled | bool | Show message? |
+
+---
 
 ## 🔧 Troubleshooting
 
-**🔴 Class FormAPI not found**
-→ Install [libFormAPI](https://github.com/jojoe77777/FormAPI) in plugins folder.
+<strong>🔴 Class FormAPI not found</strong><br>
+→ Install <a href="https://github.com/jojoe77777/FormAPI">libFormAPI</a> in plugins folder and restart.
 
-**🔴 No warps to delete**
-→ Create at least one warp with `/setwarp` first.
+<strong>🔴 No warps to delete</strong><br>
+→ Create at least one warp with /setwarp first.
 
-**🔴 Teleport fails silently**
-→ Verify world is loaded and `warps.yml` coordinates are valid.
+<strong>🔴 Teleport fails silently</strong><br>
+→ Verify world is loaded and warps.yml coordinates are valid.
 
+---
 
 ## 📁 Project Structure
 
+<pre>
 WarpUI/
 ├── plugin.yml
 ├── resources/
@@ -180,24 +208,32 @@ WarpUI/
 └── src/
     └── haedarXD/
         └── WarpUI.php
+</pre>
 
+---
 
 ## 👤 Author
 
 <div align="center">
 
-<img src="https://github.com/PM-haedarXD.png" width="80" style="border-radius: 50%;" />
+<img src="https://github.com/PM-haedarXD.png" width="80" style="border-radius: 50%;">
 
 ### haedarXD
 
-[![GitHub](https://img.shields.io/badge/GitHub-PM--haedarXD-24292e?style=flat-square&logo=github)](https://github.com/PM-haedarXD)
+<a href="https://github.com/PM-haedarXD"><img src="https://img.shields.io/badge/GitHub-PM--haedarXD-24292e?style=flat-square&logo=github" alt="GitHub"></a>
+
+📧 <a href="https://github.com/PM-haedarXD/WarpUI/issues">Report Bug</a> • 💡 <a href="https://github.com/PM-haedarXD/WarpUI/issues">Feature Request</a>
 
 </div>
 
+---
+
 ## 📜 License
+
+<div align="center">
 
 MIT — Free to use, modify, and distribute.
 
-<div align="center">
-  <sub>Made with ❤️ for the PocketMine community</sub>
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+
 </div>
