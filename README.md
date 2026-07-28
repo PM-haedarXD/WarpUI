@@ -371,23 +371,3 @@ This project is open-sourced under the MIT License.
   <sub>❤️ Made with love for the PocketMine community</sub>
 </div>
 ```
-
----
-
-🚀 آپلود کن
-
-همین الآن با nano بازش کن و جایگزین کن:
-
-```bash
-nano README.md
-```
-
-(قدیمیه رو پاک کن، اینو paste کن، CTRL+X → Y → Enter)
-
-بعد Push:
-
-```bash
-git add README.md
-git commit -m "Professional README with gallery & code"
-git push origin main
-```
