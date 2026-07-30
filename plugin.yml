@@ -1,0 +1,25 @@
+name: WarpUI
+main: haedarXD\WarpUI
+version: 1.0.8
+api: 5.0.0
+author: haedarXD
+description: WarpUI
+commands:
+  warp:
+    description: Open the warp menu
+    permission: haedarXD.warp
+  setwarp:
+    description: Add a new warp
+    permission: haedarXD.setwarp
+  delwarp:
+    description: Delete a warp
+    permission: haedarXD.delwarp
+permissions:
+  haedarXD.warp:
+    default: true
+  haedarXD.setwarp:
+    default: op
+  haedarXD.delwarp:
+    default: op
+depend:
+  - FormAPI

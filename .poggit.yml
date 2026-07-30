@@ -1,0 +1,16 @@
+name: WarpUI
+version: 1.0.8
+api: 5.0.0
+author: haedarXD
+description: A sleek UI-driven warp management plugin
+
+projects:
+  WarpUI:
+    path: ""
+    model: default
+    icon: ""
+    lint: false
+    compressBuilds: false
+    libs:
+      - src: jojoe77777/FormAPI/libFormAPI
+        version: ^2.1.1

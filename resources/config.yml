@@ -1,0 +1,7 @@
+warp-menu-title: "WarpUI"
+warp-icon: "textures/items/compass"
+default-title: "Warped!"
+default-message: "You have teleported."
+default-sound: "entity.enderman.teleport"
+setwarp-menu-title: "Set Warp"
+delwarp-menu-title: "Delete Warp"
